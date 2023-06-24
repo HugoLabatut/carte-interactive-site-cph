@@ -7,16 +7,17 @@
     <style>
         #map {
             position: relative;
+            margin: auto 0;
             width: 100%;
         }
 
         .marker {
             position: absolute;
-            width: 30px;
-            height: 30px;
+            width: 18.15px;
+            height: 18.15px;
             background-color: #E10000;
             ;
-            border: 2px solid #FFFFFF;
+            border: 2.5px solid #FFFFFF;
             border-radius: 50%;
             cursor: pointer;
             transition: transform 0.2s;
@@ -32,41 +33,21 @@
 
 <body>
     <div id="map" class="container justify-content-center">
-        <svg width="1000" height="1088" viewBox="0 0 1000 1088" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g filter="url(#filter0_d_23_29)">
-                <mask id="path-1-inside-1_23_29" fill="white">
+        <svg width="613" height="667" viewBox="0 0 613 667" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_23_31)">
+                <mask id="path-1-inside-1_23_31" fill="white">
                     <path
-                        d="M457.5 27L473.5 10L489 27L499 34H514L540 27L551 34L565 52.5L562.5 76L551 100.5L565 113.5L586 123.5L607 136.5L612.5 118L632.5 96L661 109.5H685.5H714L734.5 118V144.5L765 185L789 172L816.5 197.5L795 240H821L829 258.5H862.5L880 269L898 277.5V296L880 299.5L892 323.5L901 312.5L916 323.5V355.5L892 368.5L867.5 388L858.5 419L867.5 442.5H885.5L892 467.5L858.5 479V496L880 491.5L892 514L876 534.5L901 551H934L949.5 563.5H972L976.5 579.5L949.5 588L990 668L976.5 678L972 714L985 736V764.5L972 777L985 787L990 802L972 812L965.5 829.5H949.5L934 861.5L913 866.5L893.5 883L907 902L893.5 926.5L879.5 953L872.5 945L856 966.5L833.5 978.5L786 991L792.5 1022.5L758 1058.5V1078H737.5V1058.5L683.5 1022.5L656 1013.5L613.5 1036L602.5 1052L576.5 1047L567.5 1022.5L592 986.5L576.5 978.5L567.5 953L546 971.5L536.5 966.5L531.5 971.5H464L450.5 945L436 958.5L422 953L408.5 971.5L387.5 986.5L372.5 966.5L352.5 978.5L303.5 997.5L260 986.5L267.5 958.5L249 945L260 935.5L249 909L214 873V848.5L207.5 824L223 830.5L240 810.5L229.5 793L194.5 779.5V800L172 810.5L155.5 830.5L132.5 824L107 830.5L92 817.5L78.5 830.5L55.5 805L16.5 795.5L36 771L55.5 741L36 709L55.5 682.5L61.5 637.5L78.5 612.5V585.5L67.5 551.5H36L10.5 557.5L16.5 530L48 515.5L30 503L48 478L78.5 445H107.5L133 465.5L163 445V421H180L190 396.5L225 383L210.5 324L234.5 263H260L250.5 238L270 255L276 238L299 219.5L336.5 212.5V198L362 165H386V144.5L398.5 118L386 96L405.5 69.5L423.5 80L444.5 52.5L457.5 27Z" />
+                        d="M280.891 20.2833L290.569 10L299.945 20.2833L305.994 24.5176H315.067L330.795 20.2833L337.449 24.5176L345.917 35.7083L344.405 49.9234L337.449 64.7435L345.917 72.6072L358.62 78.6562L371.323 86.5199L374.65 75.3292L386.748 62.0214L403.988 70.1876H418.808H436.047L448.448 75.3292V91.3591L466.897 115.858L481.415 107.994L498.05 123.419L485.044 149.127H500.772L505.611 160.318H525.875L536.461 166.669L547.349 171.811V183.002L536.461 185.119L543.72 199.636L549.164 192.982L558.237 199.636V218.993L543.72 226.857L528.9 238.652L523.456 257.404L528.9 271.619H539.788L543.72 286.742L523.456 293.698V303.982L536.461 301.26L543.72 314.87L534.041 327.27L549.164 337.251H569.126L578.502 344.812H592.112L594.834 354.491L578.502 359.632L603 408.024L594.834 414.073L592.112 435.85L599.976 449.158V466.397L592.112 473.959L599.976 480.008L603 489.081L592.112 495.13L588.18 505.716H578.502L569.126 525.073L556.423 528.097L544.627 538.078L552.793 549.571L544.627 564.391L536.159 580.421L531.924 575.582L521.943 588.587L508.333 595.846L479.6 603.407L483.532 622.462L462.663 644.238V656.034H450.263V644.238L417.598 622.462L400.963 617.018L375.255 630.628L368.601 640.306L352.874 637.282L347.43 622.462L362.25 600.685L352.874 595.846L347.43 580.421L334.424 591.612L328.678 588.587L325.653 591.612H284.822L276.656 575.582L267.885 583.748L259.417 580.421L251.25 591.612L238.547 600.685L229.474 588.587L217.376 595.846L187.736 607.339L161.423 600.685L165.959 583.748L154.769 575.582L161.423 569.835L154.769 553.805L133.597 532.029V517.209L129.665 502.389L139.041 506.321L149.325 494.223L142.973 483.637L121.802 475.471V487.871L108.191 494.223L98.2106 506.321L84.2979 502.389L68.8729 506.321L59.7994 498.457L51.6332 506.321L37.7205 490.896L14.1294 485.149L25.925 470.329L37.7205 452.182L25.925 432.825L37.7205 416.796L41.3499 389.575L51.6332 374.453V358.12L44.9793 337.554H25.925L10.5 341.183L14.1294 324.548L33.1838 315.777L22.2956 308.216L33.1838 293.093L51.6332 273.132H69.1753L84.6003 285.532L102.747 273.132V258.614H113.031L119.08 243.794L140.251 235.628L131.48 199.939L145.998 163.04H161.423L155.676 147.917L167.472 158.201L171.101 147.917L185.014 136.727L207.698 132.492V123.721L223.123 103.76H237.64V91.3591L245.201 75.3292L237.64 62.0214L249.436 45.9916L260.324 52.343L273.027 35.7083L280.891 20.2833Z" />
                 </mask>
                 <path
-                    d="M457.5 27L473.5 10L489 27L499 34H514L540 27L551 34L565 52.5L562.5 76L551 100.5L565 113.5L586 123.5L607 136.5L612.5 118L632.5 96L661 109.5H685.5H714L734.5 118V144.5L765 185L789 172L816.5 197.5L795 240H821L829 258.5H862.5L880 269L898 277.5V296L880 299.5L892 323.5L901 312.5L916 323.5V355.5L892 368.5L867.5 388L858.5 419L867.5 442.5H885.5L892 467.5L858.5 479V496L880 491.5L892 514L876 534.5L901 551H934L949.5 563.5H972L976.5 579.5L949.5 588L990 668L976.5 678L972 714L985 736V764.5L972 777L985 787L990 802L972 812L965.5 829.5H949.5L934 861.5L913 866.5L893.5 883L907 902L893.5 926.5L879.5 953L872.5 945L856 966.5L833.5 978.5L786 991L792.5 1022.5L758 1058.5V1078H737.5V1058.5L683.5 1022.5L656 1013.5L613.5 1036L602.5 1052L576.5 1047L567.5 1022.5L592 986.5L576.5 978.5L567.5 953L546 971.5L536.5 966.5L531.5 971.5H464L450.5 945L436 958.5L422 953L408.5 971.5L387.5 986.5L372.5 966.5L352.5 978.5L303.5 997.5L260 986.5L267.5 958.5L249 945L260 935.5L249 909L214 873V848.5L207.5 824L223 830.5L240 810.5L229.5 793L194.5 779.5V800L172 810.5L155.5 830.5L132.5 824L107 830.5L92 817.5L78.5 830.5L55.5 805L16.5 795.5L36 771L55.5 741L36 709L55.5 682.5L61.5 637.5L78.5 612.5V585.5L67.5 551.5H36L10.5 557.5L16.5 530L48 515.5L30 503L48 478L78.5 445H107.5L133 465.5L163 445V421H180L190 396.5L225 383L210.5 324L234.5 263H260L250.5 238L270 255L276 238L299 219.5L336.5 212.5V198L362 165H386V144.5L398.5 118L386 96L405.5 69.5L423.5 80L444.5 52.5L457.5 27Z"
-                    fill="#0090E1" stroke="white" stroke-width="10" mask="url(#path-1-inside-1_23_29)" />
-                <circle cx="611" cy="556" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="353" cy="808" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="478" cy="333" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="660" cy="287" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="500" cy="529" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="524" cy="471" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="291" cy="978" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="134" cy="826" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="291" cy="793" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="524" cy="838" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="660" cy="753" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="353" cy="257" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="149" cy="656" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="276" cy="641" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="509" cy="501" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="508" cy="95" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="276" cy="428" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="389" cy="541" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="134" cy="471" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="836" cy="783" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="353" cy="471" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="515" cy="647" r="14" fill="#E10000" stroke="white" stroke-width="2" />
-                <circle cx="806" cy="621" r="14" fill="#E10000" stroke="white" stroke-width="2" />
+                    d="M280.891 20.2833L290.569 10L299.945 20.2833L305.994 24.5176H315.067L330.795 20.2833L337.449 24.5176L345.917 35.7083L344.405 49.9234L337.449 64.7435L345.917 72.6072L358.62 78.6562L371.323 86.5199L374.65 75.3292L386.748 62.0214L403.988 70.1876H418.808H436.047L448.448 75.3292V91.3591L466.897 115.858L481.415 107.994L498.05 123.419L485.044 149.127H500.772L505.611 160.318H525.875L536.461 166.669L547.349 171.811V183.002L536.461 185.119L543.72 199.636L549.164 192.982L558.237 199.636V218.993L543.72 226.857L528.9 238.652L523.456 257.404L528.9 271.619H539.788L543.72 286.742L523.456 293.698V303.982L536.461 301.26L543.72 314.87L534.041 327.27L549.164 337.251H569.126L578.502 344.812H592.112L594.834 354.491L578.502 359.632L603 408.024L594.834 414.073L592.112 435.85L599.976 449.158V466.397L592.112 473.959L599.976 480.008L603 489.081L592.112 495.13L588.18 505.716H578.502L569.126 525.073L556.423 528.097L544.627 538.078L552.793 549.571L544.627 564.391L536.159 580.421L531.924 575.582L521.943 588.587L508.333 595.846L479.6 603.407L483.532 622.462L462.663 644.238V656.034H450.263V644.238L417.598 622.462L400.963 617.018L375.255 630.628L368.601 640.306L352.874 637.282L347.43 622.462L362.25 600.685L352.874 595.846L347.43 580.421L334.424 591.612L328.678 588.587L325.653 591.612H284.822L276.656 575.582L267.885 583.748L259.417 580.421L251.25 591.612L238.547 600.685L229.474 588.587L217.376 595.846L187.736 607.339L161.423 600.685L165.959 583.748L154.769 575.582L161.423 569.835L154.769 553.805L133.597 532.029V517.209L129.665 502.389L139.041 506.321L149.325 494.223L142.973 483.637L121.802 475.471V487.871L108.191 494.223L98.2106 506.321L84.2979 502.389L68.8729 506.321L59.7994 498.457L51.6332 506.321L37.7205 490.896L14.1294 485.149L25.925 470.329L37.7205 452.182L25.925 432.825L37.7205 416.796L41.3499 389.575L51.6332 374.453V358.12L44.9793 337.554H25.925L10.5 341.183L14.1294 324.548L33.1838 315.777L22.2956 308.216L33.1838 293.093L51.6332 273.132H69.1753L84.6003 285.532L102.747 273.132V258.614H113.031L119.08 243.794L140.251 235.628L131.48 199.939L145.998 163.04H161.423L155.676 147.917L167.472 158.201L171.101 147.917L185.014 136.727L207.698 132.492V123.721L223.123 103.76H237.64V91.3591L245.201 75.3292L237.64 62.0214L249.436 45.9916L260.324 52.343L273.027 35.7083L280.891 20.2833Z"
+                    fill="#0090E1" />
+                <path
+                    d="M280.891 20.2833L290.569 10L299.945 20.2833L305.994 24.5176H315.067L330.795 20.2833L337.449 24.5176L345.917 35.7083L344.405 49.9234L337.449 64.7435L345.917 72.6072L358.62 78.6562L371.323 86.5199L374.65 75.3292L386.748 62.0214L403.988 70.1876H418.808H436.047L448.448 75.3292V91.3591L466.897 115.858L481.415 107.994L498.05 123.419L485.044 149.127H500.772L505.611 160.318H525.875L536.461 166.669L547.349 171.811V183.002L536.461 185.119L543.72 199.636L549.164 192.982L558.237 199.636V218.993L543.72 226.857L528.9 238.652L523.456 257.404L528.9 271.619H539.788L543.72 286.742L523.456 293.698V303.982L536.461 301.26L543.72 314.87L534.041 327.27L549.164 337.251H569.126L578.502 344.812H592.112L594.834 354.491L578.502 359.632L603 408.024L594.834 414.073L592.112 435.85L599.976 449.158V466.397L592.112 473.959L599.976 480.008L603 489.081L592.112 495.13L588.18 505.716H578.502L569.126 525.073L556.423 528.097L544.627 538.078L552.793 549.571L544.627 564.391L536.159 580.421L531.924 575.582L521.943 588.587L508.333 595.846L479.6 603.407L483.532 622.462L462.663 644.238V656.034H450.263V644.238L417.598 622.462L400.963 617.018L375.255 630.628L368.601 640.306L352.874 637.282L347.43 622.462L362.25 600.685L352.874 595.846L347.43 580.421L334.424 591.612L328.678 588.587L325.653 591.612H284.822L276.656 575.582L267.885 583.748L259.417 580.421L251.25 591.612L238.547 600.685L229.474 588.587L217.376 595.846L187.736 607.339L161.423 600.685L165.959 583.748L154.769 575.582L161.423 569.835L154.769 553.805L133.597 532.029V517.209L129.665 502.389L139.041 506.321L149.325 494.223L142.973 483.637L121.802 475.471V487.871L108.191 494.223L98.2106 506.321L84.2979 502.389L68.8729 506.321L59.7994 498.457L51.6332 506.321L37.7205 490.896L14.1294 485.149L25.925 470.329L37.7205 452.182L25.925 432.825L37.7205 416.796L41.3499 389.575L51.6332 374.453V358.12L44.9793 337.554H25.925L10.5 341.183L14.1294 324.548L33.1838 315.777L22.2956 308.216L33.1838 293.093L51.6332 273.132H69.1753L84.6003 285.532L102.747 273.132V258.614H113.031L119.08 243.794L140.251 235.628L131.48 199.939L145.998 163.04H161.423L155.676 147.917L167.472 158.201L171.101 147.917L185.014 136.727L207.698 132.492V123.721L223.123 103.76H237.64V91.3591L245.201 75.3292L237.64 62.0214L249.436 45.9916L260.324 52.343L273.027 35.7083L280.891 20.2833Z"
+                    stroke="white" stroke-width="6" mask="url(#path-1-inside-1_23_31)" />
             </g>
             <defs>
-                <filter id="filter0_d_23_29" x="0.5" y="0" width="999.5" height="1088" filterUnits="userSpaceOnUse"
+                <filter id="filter0_d_23_31" x="0.5" y="0" width="612.5" height="666.034" filterUnits="userSpaceOnUse"
                     color-interpolation-filters="sRGB">
                     <feFlood flood-opacity="0" result="BackgroundImageFix" />
                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
@@ -75,57 +56,58 @@
                     <feGaussianBlur stdDeviation="5" />
                     <feComposite in2="hardAlpha" operator="out" />
                     <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.75 0" />
-                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_29" />
-                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_29" result="shape" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_23_31" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_23_31" result="shape" />
                 </filter>
             </defs>
         </svg>
 
-        <div class="marker" style="left: 595.5px; top: 541px;" data-bs-toggle="tooltip" data-toggle="modal"
+
+        <div class="marker" style="left: 374.17px; top: 331.2px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Auberoche Isle Manoire" data-info="Auberoche"></div>
-        <div class="marker" style="left: 337.5px; top: 793px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 218.1px; top: 483.64px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Bergerac Périgord Pourpre" data-info="Bergerac"></div>
-        <div class="marker" style="left: 462.5px; top: 318px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 293.72px; top: 196.31px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Brantôme Dronne et Belle" data-info="Brantôme"></div>
-        <div class="marker" style="left: 644.5px; top: 272px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 403.81px; top: 168.48px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="CEPE Vert Thiviers / Coulaures" data-info="Thiviers"></div>
-        <div class="marker" style="left: 484.5px; top: 514px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 307.03px; top: 314.87px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Chamiers C.O.C. Handball" data-info="Coulouneix-Chamiers"></div>
-        <div class="marker" style="left: 508.5px; top: 456px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 321.54px; top: 279.79px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Champcevinel (HBCC)" data-info="Champcevinel"></div>
-        <div class="marker" style="left: 275.5px; top: 963px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 180.6px; top: 586.47px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Eymet" data-info="Eymet"></div>
-        <div class="marker" style="left: 118.5px; top: 811px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 85.63px; top: 494.53px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Foyen Velinois" data-info="Sainte-Foy-la-Grande"></div>
-        <div class="marker" style="left: 275.5px; top: 778px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 180.6px; top: 474.56px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="La Force Handball" data-info="La Force"></div>
-        <div class="marker" style="left: 508.5px; top: 823px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 321.54px; top: 501.78px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Lalinde (US Lalinde)" data-info="Lalinde"></div>
-        <div class="marker" style="left: 644.5px; top: 738px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 403.81px; top: 450.37px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Le Bugue (Le Bugue Athlétique Club)" data-info="Le Bugue"></div>
-        <div class="marker" style="left: 337.5px; top: 242px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 218.1px; top: 150.34px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Mareuil HBC (MHBC)" data-info="Mareuil"></div>
-        <div class="marker" style="left: 133.5px; top: 641px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 94.71px; top: 391.69px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Montpon-Menesterol Handball" data-info="Montpon"></div>
-        <div class="marker" style="left: 260.5px; top: 626px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 171.53px; top: 382.62px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Handball Mussidanais" data-info="Mussidan"></div>
-        <div class="marker" style="left: 493.5px; top: 486px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 312.47px; top: 297.93px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Périgueux Handball" data-info="Perigueux"></div>
-        <div class="marker" style="left: 492.5px; top: 80px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 311.86px; top: 52.34px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Plegut-Pluviers" data-info="Plegut-Pluviers"></div>
-        <div class="marker" style="left: 260.5px; top: 413px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 171.53px; top: 253.77px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="C.A.R. Handball" data-info="Riberac"></div>
-        <div class="marker" style="left: 373.5px; top: 526px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 239.88px; top: 322.13px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="St-Astier J.S.A." data-info="St-Astier"></div>
-        <div class="marker" style="left: 118.5px; top: 456px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 85.63px; top: 279.79px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="St-Aulaye (Handball Eulalien)" data-info="St-Aulaye"></div>
-        <div class="marker" style="left: 820.5px; top: 768px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 510.27px; top: 468.51px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Sarlat Périgord Noir" data-info="Sarlat"></div>
-        <div class="marker" style="left: 337.5px; top: 456px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 218.1px; top: 279.79px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="GIPS Tocane" data-info="Tocane"></div>
-        <div class="marker" style="left: 499.5px; top: 632px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 316.1px; top: 386.25px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Pays Vernois" data-info="Vergt"></div>
-        <div class="marker" style="left: 790.5px; top: 606px;" data-bs-toggle="tooltip" data-toggle="modal"
+        <div class="marker" style="left: 492.12px; top: 370.52px;" data-bs-toggle="tooltip" data-toggle="modal"
             data-target="#clubModal" title="Vallée Vézère (Montignac / Terrasson)" data-info="Montignac"></div>
     </div>
 
